@@ -1,0 +1,11 @@
+#
+# test encryption method durability
+create user2 AbCDe&9*8ab17@% 100
+login user2 AbCDe&9*8ab17@% 
+quit
+*
+#
+Created user user2
+Logged in as user2
+Goodbye
+*

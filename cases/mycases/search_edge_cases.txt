@@ -1,0 +1,17 @@
+# test search edge case
+# negative number of itineraries
+# zero number of itineraries
+# day of month out of bound
+search "Seattle WA" "Boston MA" 1 1 -2
+search "Seattle WA" "Boston MA" 1 1 0
+search "Seattle WA" "Boston MA" 1 40 6
+quit
+*
+#
+# expected printouts for user 1
+#
+Failed to search
+No flights match your selection
+No flights match your selection
+Goodbye
+*

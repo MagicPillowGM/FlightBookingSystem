@@ -1,0 +1,15 @@
+#
+# test username in case sensitivity
+create George 1234 100
+create georGe 1245 100
+create MARK 1234 10000
+create mark 12345 1000
+quit
+*
+#
+Created user George
+Failed to create user
+Created user MARK
+Failed to create user
+Goodbye
+*

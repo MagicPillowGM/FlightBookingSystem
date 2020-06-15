@@ -1,0 +1,14 @@
+#
+# test username and password overload
+# username and password over 20 characters
+create user0123456789123456789 user1 100
+create user1 1234567890123456789012345 100
+create user1 user1 100
+quit
+*
+#
+Failed to create user
+Failed to create user
+Created user user1
+Goodbye
+*
